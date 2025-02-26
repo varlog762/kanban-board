@@ -2,12 +2,12 @@ export type ID = string;
 
 export interface Column {
   id: ID;
-  tittle: string;
+  title: string;
   tasks: Task[];
 }
 
 export interface Task {
-  tittle: string;
+  title: string;
   createdAt: Date;
   id: ID;
 }
