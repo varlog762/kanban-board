@@ -1,5 +1,5 @@
 <template>
-  <div class="p-10">
+  <div class="p-10 h-[100vh] bg-teal-600 overflow-auto">
     <NuxtRouteAnnouncer />
     <KanbanBoard />
   </div>
