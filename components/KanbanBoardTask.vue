@@ -5,7 +5,12 @@ defineProps<{ task: Task }>();
 </script>
 
 <template>
-  <div :title="task.createdAt.toLocaleDateString()">{{ task.title }}</div>
+  <div
+    class="task bg-white p-2 mb-2 rounded shadow-sm max-w-[250px]"
+    :title="task.createdAt.toLocaleDateString()"
+  >
+    {{ task.title }}
+  </div>
 </template>
 
 <style lang="scss" scoped></style>
